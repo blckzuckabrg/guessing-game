@@ -1,12 +1,72 @@
-/*var player = prompt("What's your favorite NBA basketball player?:", "");
-alert("Wow, "  + player + " " + "is a great player. He made a incredible mark in history!");
 
-var teamName = prompt("Do you have a favorite NBA team?:", "");
-alert("It's cool that you like the" + " " + teamName+ ", but I would have to disagree lol!");
 
-var moment = prompt("Lastly, what's your best moment in your players career?:", "");
-alert("That was a great moment in his career!");
+var message = "Welcome soldier"+"";
+message = message+ " to The LBJ Guessing Game!";
+var today = new Date();
+today = "Today is " + "" + today;
+alert(message);
+document.write(today);
+console.log(today);
 
+
+var welcome = alert("Click the" + " "+"[Play Guessing Game]" +" "+ "button to continue!")
+var correct = 0;
+var posCorrect = correct++;
+var total = posCorrect;
+
+function yourName() {
+    var person = prompt("Please enter your name", "Billy Jean");
+
+    if (person != null) {
+        //document.getElementById("demo").innerHTML =
+        alert("Hello " + person + "! Lets start the Guessing Game!");
+    }
+
+    var myName = "Aaron";
+    var player = prompt("What's is my name?");
+    if(player == myName) {
+      alert("That's correct");
+      document.getElementById("1").textContent = "Correct: +1" ;
+    }else {
+      alert("That's incorrect, my name is Aaron!");
+      document.getElementById("1").textContent = "Incorrect: -1" ;
+    }
+
+
+    var favoritePlayer = "Lebron James";
+    var player = prompt("What's my favorite NBA basketball player?");
+    if(player == favoritePlayer) {
+      alert("That's correct");
+      document.getElementById("2").innerHTML = "Correct: +1" ;
+    }else {
+      alert("That's incorrect, my favorite player is Lebron James!");
+      document.getElementById("2").innerHTML = "Incorrect: -1";
+    }
+
+    var favoriteTeam = "Cleveland Cavaliers";
+    var player = prompt("What's team does Lebron James play for?");
+    if(player == favoriteTeam) {
+      alert("That's correct");
+      document.getElementById("3").innerHTML = "Correct: +1" ;
+    }else {
+      alert("That's incorrect, Lebron James plays for the Cleveland Cavaliers!");
+      document.getElementById("3").innerHTML = "Inorrect: -1";
+    }
+
+    var championship = 3;
+    var player =prompt("How many championships does Lebron James have so far? ");
+    if(player == championship ){
+      alert("That's correct!");
+      document.getElementById("4").innerHTML = "Correct: +1" ;
+    }else if(player < championship){
+      alert("Guess is too low!");
+      document.getElementById("4").innerHTML = "Incorrect: -1";
+    }else{
+      alert("Guess is too high!");
+      document.getElementById("4").innerHTML = "Incorrect: -1";
+    }
+    document.getElementById("5").innerHTML = total;
+}
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;
@@ -20,43 +80,3 @@ if (hourNow > 18) {
 } else {
     greeting = 'Welcome!';
 }
-
-var message = "Welcome to my web page;";
-message = message+ " It's a work in progress.";
-var today = new Date();
-today = "Today is " + "" + today;
-alert(message);
-document.write(today);
-console.log(today);
-
-
-
-document.write('<h3>' + greeting + '</h3>');*/
-
-
-var brand = "nike";
-var favoriteBrand = prompt("What's my favorite brand?");
-if(favoriteBrand === "nike"){
-  alert("That's correct!");
-}else{
-  alert("That's not correct!");
-}
-  console.log(brand);
-
-  var car = "lexus";
-  var favoriteCar = prompt("What's my favorite car make: BMW, Chevorlet, or Lexus?");
-  if(favoriteCar === car){
-    alert("That's correct!");
-  }else{
-    alert("That's not correct!");
-  }
-    console.log(car);
-
-    var pet = "dog";
-    var favoritePet = prompt("What's my favorite pet: cat, dog or horse?");
-    if(favoritePet === pet){
-      alert("That's correct!");
-    }else{
-      alert("That's not correct!");
-    }
-      console.log(pet);
