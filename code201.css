@@ -1,11 +1,20 @@
 body{
     text-align: center;
+    background-color: #DCDCDC;
 }
 
 p{
   text-align: center;
-  background-color: green ;
 }
+
 #first {
-  background-color: #ffffff;
+  border-color: : #ffffff;
+}
+
+.correct{
+  color: green;
+}
+
+.incorrect{
+  color: red;
 }
