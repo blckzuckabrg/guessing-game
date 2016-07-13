@@ -1,14 +1,19 @@
-body{
-    text-align: center;
+* body{
+text-align: center;
     background-color: #DCDCDC;
+    background-image: url("back.jpg");
+}
+.questions{
+  text-align: center;
+  border: 1px solid #B0BF1A;
+  margin: 10px;
+  background-color: #C4D8E2;
 }
 
-p{
-  text-align: center;
-}
 
 #first {
   border-color: : #ffffff;
+  font-size: 22px;
 }
 
 .correct{
@@ -17,4 +22,12 @@ p{
 
 .incorrect{
   color: red;
+}
+.answer{
+  color: green;
+}
+
+
+#LBJ{
+  border: 1px solid #B0BF1A;
 }

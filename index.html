@@ -3,30 +3,39 @@
 <head>
   <title>The Favorites</title>
   <link href="code201.css" type="text/css" rel="stylesheet">
+  <link href="normalize.css" type="text/css" rel="stylesheet">
 </head>
   <body>
-    <h1>LBJ Guessing Game</h1>
-    <img src="LBJ.jpg" height="300" width="300">
-    <h3 id="first">This is the Lebron James Guessing Game!</h3>
+  <div class="center">
 
 
-    <p id="first" style="color:#DC143C">**Click the button to demonstrate the prompt box**</p>
+      <h1>The Guessing Game</h1>
+
+
+    <img id="LBJ" src="Lebron_James.png" height="300" width="300">
+    <h3 id="first">Just take your best guess!</h3>
+
+
+
+    <p id="first" style="color:#007FFF"><b>**Click the button to demonstrate the prompt box**</b></p>
 
     <button onclick="yourName()">Play Guessing Game</button>
 
-    <p id="demo"></p>
+      <div class="questions">
+          <p id="1"><b>What's the first name of this guessing game developer?</b></p>
+          <p id="2"><b>What's my favorite NBA basketball player's fullname?</b></p>
+          <p id="3"><b>What's the fullname of the team that Lebron James play for?</b></p>
+          <p id="4"><b>How many championships does Lebron James have so far in 2016?</b></p>
+          <p id="shoes"><b>What company did Lebron James sign a billion dollar deal with:  Adidas, Nike, or Puma ?</b></p>
+          <p id="correct"><b>How many finals appearances does Lebron James have: choose a number between 1-10?</b></p>
+          <!-- <li id="answer"></li> -->
+      </div>
 
 
-      <p id="1"></p>
-      <p id="2"></p>
-      <p id="3"></p>
-      <p id="4"></p>
-      <p id="5"></p>
 
 
-  <p id="shoes"> </p>
-  <p id="correct"></p>
-  <p id="answer"></p>
+
+
 
 
 
@@ -35,6 +44,6 @@
     </script>
 
 
-
+</div>
   </body>
 </html>
