@@ -1,19 +1,16 @@
-Assignment for Class
-Today we will be expanding our JavaScript to include functions so that we can execute code blocks more logically, and later on, in a more controlled manner.
+The Guessing Game
 
-Submit Your Work
+This is a guessing game developed based on a system of questions revolving
+around my favorite NBA player Lebron James.  The game consists of a series of
+questions(7) that which, depending on your answer, shows you if you have guessed correctly
+of incorrectly.
 
-User Stories (MVP)
+In addition to the game question responses, there's also a bit of animation.  So
+depending on the user response, displays a "Thumbs Up" if the answer is correct,
+and displays a "Thumbs Down" if the answer is incorrect.
 
-As a developer, I want my code written in a modular way, so that I can reuse functionality without duplicating code.
-As a developer, I want my user to see the answers and responses on the web page, so we do not have to constantly interact with alerts.
-Technical Requirements
+At the start of the game, the time and date is displayed onto the page showing
+when the user visits the page.
 
-Updated and cleanly documented README
-Game functionality is encapsulated in functions
-Good use of external links to partner's repository
-Alerts have been removed from the game, and replaced by printing answers to the DOM.
-User Stories (Stretch)
-
-As a developer, I want to add a sixth question to my game, which has multiple possible answers (hint: using an array and for loop)
-As a developer, I want to add some basic styling to my site, so that I can increase the happiness and engagement of my users (hint: do not use inline styling for this; you should link to another file for your styling)
+Hopefully, The Guessing Game creates some fun activity and user
+engagement!

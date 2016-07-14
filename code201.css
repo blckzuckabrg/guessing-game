@@ -1,8 +1,10 @@
 * body{
-text-align: center;
+    text-align: center;
     background-color: #DCDCDC;
     background-image: url("back.jpg");
 }
+
+
 .questions{
   text-align: center;
   border: 1px solid #B0BF1A;
@@ -23,6 +25,7 @@ text-align: center;
 .incorrect{
   color: red;
 }
+
 .answer{
   color: green;
 }
